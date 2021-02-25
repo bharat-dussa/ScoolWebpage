@@ -18,7 +18,6 @@ export default {
 <style>
 #app {
   max-width: 100%;
-  font-family: "Montserrat", sans-serif;
   font-family: "Montserrat", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

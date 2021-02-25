@@ -3,7 +3,6 @@
     <h3>
       Reviews <span class="label">{{ title.length }}</span>
     </h3>
-
     <div class="review-section-flex" v-for="(title, x) in title" :key="x">
       <div class="review-icon"></div>
       <div class="review-details-container">
