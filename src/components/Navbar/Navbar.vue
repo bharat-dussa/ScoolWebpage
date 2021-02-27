@@ -223,8 +223,6 @@ nav a:hover {
   }
   .header ul {
     all: unset;
-    display: flex;
-    flex-flow: row wrap;
     margin-top: 1rem;
     padding: 0;
     list-style: none;
@@ -233,6 +231,9 @@ nav a:hover {
     background: transparent;
     align-items: center;
     padding: 0px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .header li a {
     display: block;
