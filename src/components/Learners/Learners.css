@@ -18,8 +18,7 @@
   .learner-title-container {
     display: flex;
     flex-wrap:wrap;
-    grid-template-columns: auto auto auto auto;
-    padding: 50px 90px;
+    padding: 50px 200px;
     padding-bottom: 0px;
     align-items: left;
   }
@@ -41,14 +40,16 @@
     text-decoration: none;
     box-shadow: none;
   }
+
+  @media all and (min-width:1920px){
+    .learner-title-container {
+      padding: 50px 90px;
+      padding: 2rem 28rem;
+      }
+  }
   @media all and (max-width: 768px) {
     .learner-title-container {
-      display: flex;
-      flex-wrap:wrap;
-      grid-template-columns: auto auto auto auto;
-      padding: 50px 90px;
-      padding-bottom: 0px;
-      align-items: left;
+      
     }
     .learner-title-container > div {
       flex: 1 1;
@@ -65,4 +66,17 @@
         flex: 1 1 50%;
       }
     }
-  }
+    @media (min-width:200px) and (max-width:667px) {
+
+      button {
+        /* font-size: 1rem; */
+        /* padding: 20px 50px; */
+        font-size: 12px;
+        padding: 16px 26px;
+      }
+      .learner-title-container {
+        padding: 45px 0px;
+        }
+
+    }
+  } 

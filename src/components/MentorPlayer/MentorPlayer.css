@@ -87,11 +87,32 @@ video {
   flex-flow: row wrap;
   align-content: space-around;
 }
+.para-container{
+  position: relative;
+  width: 370px;
+  height: 120px;
+  /* box-sizing: border-box;
+  max-width: 400px; */
+ 
+}
+.para{
+  position: absolute;
+  top:21px;
+  left: 12px;
+}
+.para::after{
+  content: "Read more...";
+  top: 20px;
+  position: relative;
+  left: -41px;
+  font-weight: 900;
+  cursor:pointer;
+}
 .player-item-left {
   background-color: #f7f7f7;
   border-radius: 30px;
   padding-bottom: 2rem;
-  max-width: 700px;
+  max-width: 900px;
   width: 100%;
 }
 .player-item-right {
