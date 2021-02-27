@@ -89,6 +89,7 @@ header {
   display: none;
 }
 .close {
+  color: #f3164d;
   display: flex;
   font-size: 29px;
   margin-left: 10px;
@@ -146,6 +147,12 @@ nav a:hover {
   display: flex;
   align-items: center;
   cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid;
+  padding: 5px 10px;
+  border: ;
+  border-radius: 50%;
+  color: #f3164d;
 }
 .join-us-btn {
   cursor: pointer;
