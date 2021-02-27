@@ -48,14 +48,14 @@
       }
   }
   @media all and (min-width:666px) and (max-width:888px) {
-    .learner-title-container {
-      padding:0px;
-    }
+    div.learner-title-container:nth-child(2) {
+      padding: 0px;
+      }
   }
   @media all and (max-width: 768px) {
-    .learner-title-container {
-      padding:0px;
-    }
+    div.learner-title-container:nth-child(2) {
+      padding: 0px;
+      }
     .learner-title-container > div {
       flex: 1 1;
     }
