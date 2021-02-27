@@ -1,5 +1,6 @@
 <template>
   <div class="main-container">
+    <!-- <div class="set-mr"></div> -->
     <MentorPlayer />
     <CourseDescription />
     <Learners />
