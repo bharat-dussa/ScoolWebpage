@@ -224,6 +224,8 @@ nav a:hover {
     overflow: hidden;
     background-color: #fff;
     background: transparent;
+    align-items: center;
+    padding: 0px 90px;
   }
   .header li a {
     display: block;
