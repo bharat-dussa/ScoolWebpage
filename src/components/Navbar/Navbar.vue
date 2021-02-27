@@ -53,7 +53,7 @@ export default {
   align-content: center;
   background-color: #fff;
   box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1);
-  position: relative;
+  position: fixed;
   background: #fff;
   width: 100%;
   z-index: 3;
