@@ -2,18 +2,23 @@
   <div class="nav">
     <header class="header">
       <Logo />
-      <ul class="menu">
-        <li>
-          <router-link class="mentor-text" :to="{ name: 'BecomeaMentor' }"
-            >Become a Mentor</router-link
-          >
-        </li>
-        <li>
-          <router-link :to="{ name: 'JoinUs' }"
-            ><button class="join-us-btn">Join Us</button></router-link
-          >
-        </li>
-      </ul>
+      <div class="nav">
+        <!-- <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" /> -->
+        <div class="humberger"><div></div></div>
+        <ul class="menu">
+          <li>
+            <router-link class="mentor-text" :to="{ name: 'BecomeaMentor' }"
+              >Become a Mentor</router-link
+            >
+          </li>
+          <li>
+            <router-link :to="{ name: 'JoinUs' }"
+              ><button class="join-us-btn">Join Us</button></router-link
+            >
+          </li>
+        </ul>
+      </div>
     </header>
   </div>
 
@@ -21,21 +26,26 @@
 </template>
 
 <script>
-import Logo from "../components/Logo/Logo";
+import Logo from "../Logo/Logo";
 
 export default {
   name: "Navbar",
   components: {
     Logo
+  },
+  methods: {
+    openNav: function() {
+      document.getElementById("myNav").style.width = "100%";
+    },
+
+    closeNav: function() {
+      document.getElementById("myNav").style.width = "0%";
+    }
   }
 };
 </script>
 
 <style>
-* {
-  padding: 0;
-  margin: 0;
-}
 .header {
   display: flex;
   flex-flow: row wrap;
@@ -98,19 +108,5 @@ span {
 
 /* 48em = 768px */
 @media screen and (max-width: 768px) {
-  .header ul {
-    flex-direction: column;
-    width: 100%;
-  }
-  .header {
-    box-shadow: 8px 13px 50px 0 rgb(6 10 32 / 22%);
-  }
-  .header .logo {
-    align-items: center;
-    width: 100%;
-  }
-  .join-us-btn {
-    margin-right: 13px;
-  }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-container">
     <MentorPlayer />
     <CourseDescription />
     <Learners />
@@ -26,3 +26,5 @@ export default {
   }
 };
 </script>
+
+<style scoped src="@/components/assests/Styles/style.css"></style>

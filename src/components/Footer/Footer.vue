@@ -1,30 +1,32 @@
 <template>
   <div class="footer-section">
-    <div class="footer-1">
-      <ul>
-        <li>
-          <a href="/" class="logo">Scool<span>.</span></a>
-        </li>
-        <li>
-          <span class="copyright"
-            >© 2020 Hundred Eyes Educational Services Pvt Ltd</span
-          >
-        </li>
-      </ul>
+    <div class="footer-logo-social-container">
+      <div class="logo-social">
+        <ul>
+          <li>
+            <a href="/" class="logo">Scool<span>.</span></a>
+          </li>
+          <li>
+            <span class="copyright"
+              >© 2020 Hundred Eyes Educational Services Pvt Ltd</span
+            >
+          </li>
+        </ul>
+        <section class="ft-social">
+          <ul class="ft-social-list">
+            <div class="ft-social-list-links">
+              <a href="#"><i class="fab fa-facebook icon-color"></i></a>
+            </div>
+            <div class="ft-social-list-links">
+              <a href="#"><i class="fab fa-twitter icon-color"></i></a>
+            </div>
+            <div class="ft-social-list-links">
+              <a href="#"><i class="fab fa-instagram icon-color"></i></a>
+            </div>
+          </ul>
+        </section>
+      </div>
     </div>
-    <section class="ft-social">
-      <ul class="ft-social-list">
-        <li>
-          <a href="#"><i class="fab fa-facebook icon-color"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-twitter icon-color"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-instagram icon-color"></i></a>
-        </li>
-      </ul>
-    </section>
     <div class="footer-2">
       <ul>
         <li><router-link :to="{ name: 'About' }">About </router-link></li>

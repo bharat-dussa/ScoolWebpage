@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 // import Home from '../src/components/Home/Home';
 export default {
   name: "App",
@@ -16,6 +16,11 @@ export default {
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 #app {
   max-width: 100%;
   font-family: "Montserrat", Avenir, Helvetica, Arial, sans-serif;
