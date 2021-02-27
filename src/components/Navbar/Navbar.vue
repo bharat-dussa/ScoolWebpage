@@ -221,6 +221,10 @@ nav a:hover {
     justify-content: flex-end;
     align-items: center;
   }
+  .header > nav:nth-child(4) > ul:nth-child(1) {
+    display: flex;
+    align-items: center;
+  }
   .header ul {
     all: unset;
     margin-top: 1rem;
