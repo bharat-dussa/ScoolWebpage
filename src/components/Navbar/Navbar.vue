@@ -163,12 +163,12 @@ nav a:hover {
   color: #ffff;
   text-transform: uppercase;
 }
-@media screen and (min-width: 332px) and(max-width:369px) {
+@media screen and (max-width: 369px) {
   .mobile-navigation-bar {
     margin-right: 80px;
   }
 }
-@media screen and (min-width: 100px) and (max-width: 329px) {
+@media screen and (max-width: 329px) {
   .mobile-navigation-bar {
     margin-right: 80px;
   }
@@ -186,15 +186,15 @@ nav a:hover {
     margin-right: 200px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 847px) {
+/* @media screen and (min-width: 768px) and (max-width: 846px) {
   nav {
     grid-column: 2/4;
     justify-content: center;
     margin-right: 45px;
     margin-top: 11px;
   }
-}
-@media screen and (min-width: 769px) {
+} */
+@media screen and (min-width: 846px) {
   .mobile-navigation-bar,
   .close,
   .burger {
