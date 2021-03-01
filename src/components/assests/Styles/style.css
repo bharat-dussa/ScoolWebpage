@@ -189,7 +189,7 @@ button {
   }
   .course-section > h3 {
     font-family: "Montserrat", sans-serif;
-    font-size: 27px;
+    font-size: 1.4rem;
     color: black;
     font-weight: 700;
   }
@@ -198,6 +198,7 @@ button {
   }
   .course-section {
     flex-direction: row;
+    padding: 48px 32px;
   }
 }
 /* CousreDescription ends */
