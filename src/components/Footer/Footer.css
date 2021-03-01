@@ -68,10 +68,9 @@ ul {
     justify-content:space-between;
 }
 .footer-2 li a{
-  color: #FFFFFF;
+  color: #FFFFFF80;
   list-style-type: none;
   margin: 26px;
-  opacity:70%;
   text-decoration: none;
 }
 
